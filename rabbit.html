@@ -14,12 +14,11 @@
 </head>
 <body>
     <header>
-        <marquee behavior="scroll" direction="left">have a nice day full of happiness!</marquee>
-        <a href="http://127.0.0.1:5500/3/teamwork.html"><img src="https://www.bing.com/images/blob?bcid=TlO940nwh4oELw" alt="logo"></a>
+        <img width="400px" src="https://www.bing.com/images/blob?bcid=TlO940nwh4oELw" alt="logo">
         <h1>online pet shop</h1>
     </header>
     <nav>
-        <pre> <a href="rabbit.html">rabbits</a>   <a href="cat.html">cats</a>   <a href="#">dogs</a>   <a href="bird.html">birds</a></pre>
+        <pre> <a href="rabbit.html">rabbits</a>   <a href="cat.html">cats</a>   <a href="hamster.html">hamster</a>   <a href="bird.html">birds</a></pre>
     </nav>
     <hr>
     <main>
@@ -77,6 +76,8 @@
                 <input type="text" id="fnm"><br><br>
                 <label for="lnm">last name</label>
                 <input type="text" id="lnm"><br><br>
+                <label for="country">choose your country</label>
+                <input type="text" id="country" disabled placeholder="iran"><br>
                 <p>which city are you from?</p>
                 <label for="city"> select city:</label>
                 <select name="city" id="city">
@@ -87,18 +88,23 @@
                 </select><br><br>
                 <label for="address">Write your exact address:</label><br>
                 <textarea name="address" id="address" cols="30" rows="10"></textarea><br><br>
-                <label for="zipcode">postal scode</label>
-                <input type="text" id="zipcode"><br><br>
-                <label for="phn">phone</label>
-                <input type="tel" id="phn"><br><br>
-                <label for="mail">email</label>
-                <input type="email" id="mail"><br><br>
-                <p>delivery:</p>
-                <label for="prsn">in person</label>
-                <input type="radio" name="delivery" id="prsn">
-                <label for="post">by post</label>
-                <input type="radio" name="delivery" id="post">
-                <br><br>
+                <fieldset>
+                    <legend>how can we contact you?</legend>
+                    <label for="zipcode">postal scode</label>
+                    <input type="text" id="zipcode"><br><br>
+                    <label for="phn">phone</label>
+                    <input type="tel" id="phn"><br><br>
+                    <label for="mail">email</label>
+                    <input type="email" id="mail"><br><br>
+                </fieldset>
+                <fieldset>
+                    <legend>choose your delivery method</legend>
+                    <label for="prsn">in person</label>
+                    <input type="radio" name="delivery" id="prsn">
+                    <label for="post">by post</label>
+                    <input type="radio" name="delivery" id="post">
+                </fieldset>
+                <br>
                 <label for="pss">password</label>
                 <input type="password" id="pss"><br><br>
                 <label for="breed">breed:</label>
@@ -121,7 +127,7 @@
                 <li><a href="https://github.com/abolfazl-saffari" target="_blank">Abolfazl's Github</a></li>
                 <li><a href="https://github.com/kanibadavi" target="_blank">Kani's Github</a></li>
                 <li><a href="https://github.com/hossein-cholaki" target="_blank">Hossein's Github</a></li>
-                <li><a href="#" target="_blank">git address 4</a></li>
+                <li><a href="#" target="_blank">Masoume's Github</a></li>
             </ul>
         </address>
         <pre>
